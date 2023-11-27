@@ -1,0 +1,23 @@
+1> Show Directory Content
+       dir
+2> Make New Directory
+      mkdir "(Directory Name)"
+3> Go Inside Directory
+      cd (Directory Name)
+4> Go Back
+      cd..
+5> Remove Directory
+      rmdir (Directory Name)
+6> Create Text File
+      type nul > (Name of text file).text
+7> Rename 
+      rem (Old Name) (New Name)
+8> Make Copy Of Text File
+      copy (Old Text File).txt (New Text File).txt
+9> Write Something in Text File
+      copy con (Text File).txt
+          [write what you want]
+10> Open Notepad
+      notepad (Text File).txt
+11> Delete Text File
+      del (File Name).txt
