@@ -2,8 +2,10 @@
 
 int main()
 {
-    int h,i,k,l,m,n;
-    int a[100];
+    int head,i,elt,last,mid,n;
+    int arr[100];
+
+    //INPUT ARRAY
 
     printf("Enter the value of N:");
     scanf("%i",&n);
@@ -11,39 +13,48 @@ int main()
     for(i=0;i<n;i++)
     {
         printf("Enter %ith element:",i);
-        scanf("%i",&a[i]);
+        scanf("%i",&arr[i]);
     }
 
-    printf("Enter the value of Elt:");
-    scanf("%i",&k);
+    //INPUT ELT TO CHECK
 
-    l=0;
-    h=n-1;
-    m=(l-h)/2;
+    printf("Enter the value of ELT:");
+    scanf("%i",&elt);
 
-    while (l<=h)
+    //SETTING ARRAY AS - Eg:[L,0,0,0,M,0,0,0,H]
+
+    last=0;
+    head=n-1;
+    mid=(last-head)/2;
+
+    while (last<=head)
     {
-        if(a[m]<k)
+        //ARRAY - [0,0,0,0,L,0,M,0,H]     (if ELT is between previous last and mid)
+        if(arr[mid]<elt)
         {
-            l=m+1;
+            last=mid+1;
         }
-        else if (a[m]==k)
+
+        //ARRAY - [L,0,M,0,H,0,0,0,0]    (if ELT is between previous mid and head)
+        else if ((arr[mid]>elt))
         {
-            printf("ELT found");
+            head=mid-1;
+        }
+
+        //ARRAY - [L,0,0,0,M,0,0,0,H] (if ELT is at position mid)
+        else if (arr[mid]==elt)
+        {
+            printf("%i found",elt);
             break;
         }
-        else
-        {
-            h=m-1;
-        }
-        m=(l+h)/2;
+        
+        //SHIFT MID BETWEEN HEAD AND LAST
+        mid=(last+head)/2;
     }
     
-
-    if(l<h)
-        printf("Elt not found");
-    else
-        printf("ELT found");
+    //WHEN ELEMENT IS OUT OF ARRAY 
+    if(last > head)
+        printf("ELT not found");
 
     return 0;
 }
