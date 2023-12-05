@@ -27,21 +27,23 @@ int main()
     head=n-1;
     mid=(last-head)/2;
 
+    //START SEARCH FOR ELT IN ARRAY
+
     while (last<=head)
     {
-        //ARRAY - [0,0,0,0,L,0,M,0,H]     (if ELT is between previous last and mid)
+        //(if ELT is between previous last and mid) --- NEW ARRAY - [0,0,0,0,L,0,M,0,H] (REPOSITION LAST)
         if(arr[mid]<elt)
         {
             last=mid+1;
         }
 
-        //ARRAY - [L,0,M,0,H,0,0,0,0]    (if ELT is between previous mid and head)
+        //(if ELT is between previous mid and head) --- NEW ARRAY - [L,0,M,0,H,0,0,0,0] (REPOSTITION HEAD)
         else if ((arr[mid]>elt))
         {
             head=mid-1;
         }
 
-        //ARRAY - [L,0,0,0,M,0,0,0,H] (if ELT is at position mid)
+        //(if ELT is at position mid) --- NEW ARRAY - [L,0,0,0,M,0,0,0,H] 
         else if (arr[mid]==elt)
         {
             printf("%i found",elt);
@@ -54,7 +56,7 @@ int main()
     
     //WHEN ELEMENT IS OUT OF ARRAY 
     if(last > head)
-        printf("ELT not found");
+        printf("%i not found in array",elt);
 
     return 0;
 }
