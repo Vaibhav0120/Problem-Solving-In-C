@@ -2,7 +2,7 @@
 
 int main()
 {
-    int l,i,m,n,h,k;
+    int h,i,k,l,m,n;
     int a[100];
 
     printf("Enter the value of N:");
