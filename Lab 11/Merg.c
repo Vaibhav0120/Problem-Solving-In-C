@@ -5,7 +5,7 @@ int main()
     int i,j,k,n,m;
 
     //INPUT FIRST ARRAY
-    /*
+
     printf("Enter N:");
     scanf("%i",&n);
 
@@ -16,12 +16,10 @@ int main()
         printf("Enter %ith element:",i);
         scanf("%i",&a[i]);
     }
-    */
-    int a[100] = {8,14,25,38,48,68,77,82,91};
-    n=9;
+    
 
     //INPUT SECOND ARRAY
-    /*
+    
     printf("Enter M:");
     scanf("%i",&m);
 
@@ -30,58 +28,65 @@ int main()
     for(j=0;j<m;j++)
     {
         printf("Enter %ith element:",j);
-        scanf("%i",&b[i]);
+        scanf("%i",&b[j]);
     }
-    */
-    
-    int b[100]= {6,9,11,22,28,38,61,73,82,87,91};
-    m=11;
 
     //START THIRD(RESULT) ARRAY
     int c[100];
 
     //MERGING START
-    i=0,j=0;
-    for(k=0;k<n+m;k++)
+    i=0,j=0,k=0;
+    while(k < m+n)
     {
-        //IF ANY ARRAY IS COMPLETED
-        if(i==n || j==m)
+        //WHEN ANY OF THE ARRAY IS NOT COMPLETELY USED (NORMAL/START CASE)
+        while((i<n) && (j<m))
         {
-            //IF FIRST ARRAY IS COMPLETE - TRANSFER ALL SECOND ARRAY ELEMENT ONE BY ONE
-            if(i==n)
-            {
-                c[k]=b[j];
-                j++;
-            }
-            //IF SECOND ARRAY IS COMPLETE - TRANSFER ALL FIRST ARRAY ELEMENT ONE BY ONE
-            else
+            //IF ELT OF A IS SMALLER SEND IT AT C
+            if(a[i] < b[j])
             {
                 c[k]=a[i];
                 i++;
+                k++;
+            }
+            
+            //IF ELT OF B IS SMALLER SEND IT AT C
+            else if(a[i] > b[j])
+            {
+            c[k] = b[j];
+            j++;
+            k++;
+            }
+
+            //IF BOTH ELT ARE EQUAL SEND BOTH TO C
+            else if(a[i] == b[j])
+            {
+                c[k] = a[i];
+                i++;
+                k++;
+                c[k] = b[j];
+                j++;
+                k++;
             }
         }
-        //IF ELEMENTS ARE LEFT IN BOTH ARRAY
-        if(a[i]<b[j])
-        {
-            c[k]=a[i];
-            i++;
-        }
-        else if (a[i]>b[j])
+
+        //WHEN ANY OF THE ARRAY IS COMPLETELY USED
+        //WHEN A IS COMPLETELY USED
+        if(i==n)
         {
             c[k]=b[j];
             j++;
+            k++;
         }
+        //WHEN B IS COMPLETELY USED
         else
         {
             c[k]=a[i];
             i++;
             k++;
-            c[k]=b[j];
-            j++;
         }
-        
     }
 
+    //PRINTING THE MERGED ARRAY
     for(k=0;k<n+m;k++)
     {
         printf(" [%i] ",c[k]);
