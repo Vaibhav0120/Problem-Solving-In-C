@@ -25,7 +25,7 @@ int main()
 
     last=0;
     head=n-1;
-    mid=(last-head)/2;
+    mid=(last+head)/2;
 
     //START SEARCH FOR ELT IN ARRAY
 
