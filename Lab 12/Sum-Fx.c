@@ -18,8 +18,10 @@ int main()
 
 int sum(int n)
 {
+    int r;
+    r=n%10;
     if (n == 0)
         return 0;
     else
-        return (n % 10 + sum(n / 10));
+        return (r + sum(n / 10));
 }

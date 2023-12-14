@@ -14,7 +14,7 @@ int main()
     
     swap(A,B);
 
-    printf("A = %i || B = %i   <-- IN MAIN",A,B);
+    printf("A = %i || B = %i",A,B);
 }
 
 void swap(int P,int Q)
@@ -24,6 +24,6 @@ void swap(int P,int Q)
     P = Q;
     Q = temp;
 
-    printf("A = %i || B = %i   <-- IN SWAP",P,Q);
+    printf("A = %i || B = %i",P,Q);
     printf("\n");
 }
