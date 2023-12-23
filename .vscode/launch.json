@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Vaibhav/OneDrive/Documents/Visual Studio Code/College",
-      "program": "c:/Users/Vaibhav/OneDrive/Documents/Visual Studio Code/College/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
