@@ -1,31 +1,24 @@
-//NOTE : THIS WAS OPTIONAL
-//THIS IS JUST AN IDEA
-//IT'S NOT WORKING CORRECTLY
+//NOTE: TRY TO RUN IT ON ONLINE C COMPILER IF NOT WORKING CORRECTLY ON VS CODE
 #include<stdio.h>
-#include<math.h>
 
-int reverse(int n,int i);
+int reverse(int n, int reversedNum);
 
-void main()
+int main()
 {
-    int n,i;
-
-    printf("Enter the value of N:");
-    scanf("%i", &n);
-
-    printf("Enter number of digits:");
-    scanf("%i", &i);
-
-    int result = reverse(n,i);
-
-    printf("Reverse of number: %d\n", result);
+int n,reversedNum;
+printf("Enter the value of N:");
+scanf("%i", &n);
+reversedNum = reverse(n, reversedNum);
+printf("Reverse of number: %i", reversedNum);
+return 0;
 }
 
-int reverse(int n,int i)
-{
-    int lastDigit = n % 10;
-
-    int position = (int)pow(10, i - 1);
-
-    return (lastDigit * position + reverse(n / 10, i - 1));
+int reverse(int n, int reversedNum){
+if (n == 0)
+return reversedNum;
+else{
+int lastDigit;
+lastDigit = n % 10;
+reversedNum = reversedNum * 10 + lastDigit;
+return reverse(n / 10, reversedNum);}
 }
