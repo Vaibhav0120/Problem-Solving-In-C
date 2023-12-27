@@ -23,4 +23,6 @@ void swap(int *P,int *Q)
     temp = *P;
     *P = *Q;
     *Q = temp;
+    printf("A = %i || B = %i",*P,*Q);
+    printf("\n");
 }
