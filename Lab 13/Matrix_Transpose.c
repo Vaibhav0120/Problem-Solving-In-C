@@ -34,33 +34,17 @@ int main()
     {
         for(j=0;j<c;j++)
         {
-            for(k=0;k<r;k++)
-            {
-                result[j][i]= a[i][j];
-            }
+            result[j][i]= a[i][j];
         }
     }
-
-    //PRINT MATRIX
-
-    printf("Matrix:");
-    printf("\n");
-    for (i = 0; i < r; i++) 
-    {
-        for (j = 0; j < c; j++) {
-
-            printf("[%i]  ", a[i][j]);
-        }
-        printf("\n");
-    } 
 
     //PRINT RESULTANT MATRIX
 
     printf("Transpose Of Matrix:");
     printf("\n");
-    for (i = 0; i < r; i++) 
+    for (i = 0; i < c; i++) 
     {
-        for (j = 0; j < c; j++) {
+        for (j = 0; j < r; j++) {
 
             printf("[%i]  ", result[i][j]);
         }
