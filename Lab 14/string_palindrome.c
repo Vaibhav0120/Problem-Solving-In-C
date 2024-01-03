@@ -5,7 +5,8 @@ void main()
     char s2[100];
     int i,j,l;
     char t;
-    printf("Enter 1st String: ");
+
+    printf("Enter String: ");
     gets(s1);
 
     //strcpy

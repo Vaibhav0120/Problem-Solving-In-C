@@ -4,6 +4,7 @@ void main()
     char s1[100];
     char s2[100];
     int i,j;
+    
     printf("Enter 1st String: ");
     gets(s1);
     printf("Enter 2nd String: ");
@@ -16,6 +17,9 @@ void main()
         j++;
     }
     s2[i]='\0';
+
+    printf("1st String:");
     puts(s1);
+    printf("2st String:");
     puts(s2);
 }

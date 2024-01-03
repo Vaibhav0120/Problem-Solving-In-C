@@ -4,8 +4,14 @@ void main()
     char s1[100];
     int i,l;
     char t;
+
     printf("Enter 1st String: ");
     gets(s1);
+
+    while(s1[i]!='\0')
+        i++;
+
+    l=i,i=0;
 
     while(i<l/2)
     {
@@ -15,5 +21,6 @@ void main()
         i++;
     }
 
+    printf("Reverse: ");
     puts(s1);
 }
