@@ -96,13 +96,13 @@ int main()
     }
 else
 {
-    if (d<1||0<m<12||y<1)
+    if (d<1 || 0 < m < 12 || y < 1)
     {
         printf("date is not valid");
     }
     else
     {
-        printf("next date is :%i / %i / %i",d, m, y);    
+        printf("next date is :%i / %i / %i",d,m,y);    
     }
 }   
 return 0;

@@ -3,8 +3,10 @@
 int main()
 {
     int a,b;
-    printf("enter the month and year: ");
-    scanf("%i %i", a, b);
+    printf("enter the month: ");
+    scanf("%i",&a);
+    printf("enter the year: ");
+    scanf("%i",&b);
 
     if(a==1 || a==3 || a==5 || a==7 || a==8 || a==10 || a==12)
     {
