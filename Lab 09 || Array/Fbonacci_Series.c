@@ -8,15 +8,15 @@ int main()
     printf("Enter N: ");
     scanf("%i",&n);
     //FIRST 2 NUMBERS
-    a[0]=0;
-    a[1]=1;
+    a[0] = 0;
+    a[1] = 1;
     //BUILDING NEXT NUMBERS
-    for(i=2;i<n;i++)
+    for(i = 2; i < n; i++)
     {
-        a[i]=a[i-1]+a[i-2];
+        a[i] = a[i-1] + a[i-2];
     }
     //PRINT
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
         printf("%i ",a[i]);
     }

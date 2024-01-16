@@ -7,12 +7,12 @@ int main()
     printf("Enter Number: ");
     scanf("%i",&n);
 
-    while(n>0)
+    while(n > 0)
     {  
-         r=0;
-        r=n%2;
-        b=b+pow(10,i)*r;
-        n=n/2;
+        r = 0;
+        r = n % 2;
+        b = b + pow(10,i) * r;
+        n = n / 2;
         i++;
     }
 

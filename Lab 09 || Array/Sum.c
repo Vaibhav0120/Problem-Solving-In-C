@@ -7,13 +7,13 @@ int main()
     printf("Enter N: ");
     scanf("%i",&n);
     int ar[100];
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
         printf("Enter %ith element: ",i+1);
         scanf("%i",&ar[i]);
     }
     //SUM
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
         sum = sum + ar[i];
     }

@@ -7,7 +7,7 @@ int main()
     printf("Enter N: ");
     scanf("%i",&n);
     int ar[100];
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
         printf("Enter %ith element: ",i+1);
         scanf("%i",&ar[i]);
@@ -16,12 +16,12 @@ int main()
     scanf("%i",&pos);
     pos--;
     //SHIFT
-    for(i=pos;i<n;i++)
+    for(i = pos; i < n; i++)
     {
-        ar[i]=ar[i+1];
+        ar[i] = ar[i+1];
     }
     //PRINT
-    for(i=0;i<n-1;i++)
+    for(i = 0; i < n-1; i++)
     {
         printf(" [%i] ",ar[i]);
     }
