@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-#define myfunction      main
 #define nothing         int
+#define myfunction      main()
 #define start           {
 #define display         printf
 #define st              (
@@ -12,7 +12,7 @@
 #define done            0;
 #define end             }
 
-nothing myfunction()           //  void main()
+nothing myfunction             //  void main()
 start                          //  {
 display st MSG stop            //      printf("Welcome To My Git");
 newline                        //      printf("\n");
