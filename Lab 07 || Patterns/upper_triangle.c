@@ -18,4 +18,10 @@ int main()
     }
     return 0;
 }
-// works correctly on online c compiler
+/*
+   12345
+    1234
+     123
+      12
+       1
+*/

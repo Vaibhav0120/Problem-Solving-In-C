@@ -3,7 +3,7 @@ int main ()
 {
     int i,j;
 
-    for(i=0;i<50;i++)
+    for(i=0;i<5;i++)
     {
         for(j=i;j>=0;j--)
         {
@@ -16,3 +16,10 @@ int main ()
     }
     return 0;
 }
+/*
+   A
+   BA
+   ABA
+   BABA
+   ABABA
+*/

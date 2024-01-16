@@ -1,9 +1,8 @@
-//not working correct- check flow chart in copy
 #include<stdio.h>
 
 int main()
 {
-    int n,s,r,t;
+    int n,s=0,r,t;
 
     printf("Enter N: ");
     scanf("%i",&n);
