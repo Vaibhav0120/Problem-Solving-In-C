@@ -19,7 +19,7 @@ int main()
 int sum(int n)
 {
     int r;
-    r=n%10;
+    r = n % 10;
     if (n == 0)
         return 0;
     else

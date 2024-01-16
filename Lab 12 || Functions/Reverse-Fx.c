@@ -1,30 +1,30 @@
 #include<stdio.h>
 
-int reverse(int n, int reversedNum);
+int reverse(int n, int reversed);
 
 int main()
 {
-int n,reversedNum=0;
+int n,reversed=0;
 
 printf("Enter the value of N:");
 scanf("%i", &n);
 
-reversedNum = reverse(n, reversedNum);
+reversed = reverse(n, reversed);
 
-printf("Reverse of number: %i", reversedNum);
+printf("Reverse of number: %i", reversed);
 
 return 0;
 }
 
-int reverse(int n, int reversedNum)
+int reverse(int n, int reversed)
 {
+    int last;
     if (n == 0)
-    return reversedNum;
+    return reversed;
     else
     {
-        int lastDigit;
-        lastDigit = n % 10;
-        reversedNum = reversedNum * 10 + lastDigit;
-        return reverse(n / 10, reversedNum);
+        last = n % 10;
+        reversed = reversed * 10 + last;
+        return reverse(n / 10, reversed);
     }
 }
