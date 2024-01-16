@@ -16,7 +16,7 @@ int main()
 
     /*  Sorting technique
         7 3 2 9 5 2  --> 3 7 2 9 5 2 --> 2 7 3 9 5 2 --> 2 7 3 9 5 2  
-        ^ ^              ^   ^           ^     ^         ^       ^
+        i j              i   j           i     j         i       j
     */
     for(i = 0; i < n; i++)
     {
