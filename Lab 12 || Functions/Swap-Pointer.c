@@ -19,10 +19,10 @@ int main()
 
 void swap(int *P,int *Q)
 {
-    int temp;
-    temp = *P;
-    *P = *Q;
-    *Q = temp;
+    int temp;       //Without using 3rd variable - 5   2
+    temp = *P;      // *P = *P + *Q          -->   7   2
+    *P = *Q;        // *Q = *P - *Q          -->   7   5
+    *Q = temp;      // *P = *P - *Q          -->   2   5
     printf("A = %i || B = %i",*P,*Q);
     printf("\n");
 }
