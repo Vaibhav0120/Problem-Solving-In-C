@@ -2,35 +2,28 @@
 #include<math.h>
 
 int main()
-
 {
-int N,T,S,R,C;
+    int N, T, S, R, C;
 
-printf("Enter N: ");
-scanf("%i" ,&N);
+    printf("Enter N: ");
+    scanf("%i", &N);
 
-T=N;
-S=0;
-C=0;
-R=0;
+    T = N;
+    S = 0;
+    C = 0;
 
-while(N>0)
-{
-C=C+1;
-N=N/10;
-}
-N=T;
-while(N>0)
-{
-R=N%10;
-S-S+pow (R,C);
-N=N/10;
-}
+    while (N > 0)
+    {
+        R = N % 10;
+        C = C + 1;
+        S = S + pow(R, C);
+        N = N / 10;
+    }
 
-if(T==S)
-printf("It is Armstrong");
-else
-printf("It is not Armstrong");
+    if (T == S)
+        printf("It is Armstrong");
+    else
+        printf("It is not Armstrong");
 
-return 0;
+    return 0;
 }
