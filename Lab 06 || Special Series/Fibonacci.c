@@ -7,14 +7,14 @@ int main()
     printf("Enter N: ");
     scanf("%i",&n);
 
-    printf("Fibonacii Series: %i%i",first,second);
+    printf("Fibonacii Series: %i %i",first,second);
 
     while(i<=n)
     {
         next = first + second;
         first = second;
         second = next;
-        printf("%i",next);
+        printf("%i ",next);
         i++;
     }
     return 0;
