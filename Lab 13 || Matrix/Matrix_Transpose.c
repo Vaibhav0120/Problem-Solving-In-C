@@ -27,7 +27,7 @@ int main()
 
     int result[100][100];
     
-    //CHECK IF MULTIPLICATION IS POSSIBLE
+    //Transpose "a" and store in "result"
 
    
     for(i=0;i<r;i++)
