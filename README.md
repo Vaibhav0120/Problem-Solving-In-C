@@ -1,7 +1,6 @@
 # College
 
 IPEC 2K23 1YR/1SEM PPS          
-ALL LAB ASSIGNMENT           
-SEC-B GRP-2
+ALL LAB ASSIGNMENT + Important Program For Practice
 
-Made By:Vaibhav Sharma
+Made By:Vaibhav Sharma (CSE)
