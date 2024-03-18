@@ -20,8 +20,9 @@ int main()
         c = fgetc(fp);    //Store The Character pointed by FILE pointer on file
         if(c==EOF)    //At The (EOF)EndOfFile Exit Loop
             break;
-        if(c>=65 && c<=90 || c>=97 && c<=122)    //Check if character is alphabet by using ASCII CODES
+        if(c>=65 && c<=90 || c>=97 && c<=122) //Check if character is alphabet by using ASCII CODES
         //Capital Alphabests ASCII: 65-90 | Small Alphabests ASCII: 97-122
+        // OR USE ( (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') )
         {
             n++;
         }
