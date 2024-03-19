@@ -12,8 +12,16 @@ int main()
 
     T = N;
     S = 0;
-    C = 3; //no. of digits
+    C = 0; //no. of digits
 
+    while(N > 0)
+    {
+        C += 1;
+        N /= 10;
+    }
+    
+    N = T;
+    
     while (N > 0)
     {
         R = N % 10;
