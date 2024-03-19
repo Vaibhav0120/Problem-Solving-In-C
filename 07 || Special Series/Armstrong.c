@@ -7,7 +7,7 @@ int main()
 {
     int N, T, S, R, C;
 
-    printf("Enter N(3 digit): ");
+    printf("Enter N: ");
     scanf("%i", &N);
 
     T = N;
