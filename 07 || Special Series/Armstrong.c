@@ -7,12 +7,12 @@ int main()
 {
     int N, T, S, R, C;
 
-    printf("Enter N: ");
+    printf("Enter N(3 digit): ");
     scanf("%i", &N);
 
     T = N;
     S = 0;
-    C = 0;
+    C = 3; //no. of digits
 
     while (N > 0)
     {
