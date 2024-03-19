@@ -17,7 +17,6 @@ int main()
     while (N > 0)
     {
         R = N % 10;
-        C = C + 1;
         S = S + pow(R, C);
         N = N / 10;
     }
