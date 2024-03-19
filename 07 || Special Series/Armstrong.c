@@ -1,3 +1,5 @@
+//Armstrong number (Three digit)
+//370 = 3^3+7^3+0^3
 #include<stdio.h>
 #include<math.h>
 
