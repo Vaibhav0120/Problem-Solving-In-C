@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<math.h>
 
 int main ()
 {
-    int num,num2,b,i,r;
+    int num,num2,binary,i,r;
 
     printf("Enter a Number: ");
     scanf("%d",&num);
@@ -13,8 +14,9 @@ int main ()
     while(num>0)
     {
         r = num % 10;
-        b = b + i;
-        num = num / 10;
+        binary = binary + pow(10,i)*r;
+        num = num / 2;
+        i = i + 1;
     }
 
     printf("Sum of %d: %d \n",num2,b);
