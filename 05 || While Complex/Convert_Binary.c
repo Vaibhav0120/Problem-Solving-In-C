@@ -9,7 +9,7 @@ int main ()
     scanf("%d",&num);
 
     num2 = num;
-    b=0,i=0;
+    binary=0,i=0;
 
     while(num>0)
     {
@@ -19,6 +19,6 @@ int main ()
         i = i + 1;
     }
 
-    printf("Sum of %d: %d \n",num2,b);
+    printf("Sum of %d: %d \n",num2,binary);
     return 0;
 }
