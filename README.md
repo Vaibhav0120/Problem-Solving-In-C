@@ -3,7 +3,7 @@
 <h3 align="center">
   Welcome to our C Programming Problem Solving Repository! Whether you're just starting out or looking to enhance your skills, this repository is designed with you 
   in mind. Dive into the world of problem-solving through the lens of the C language, a versatile and powerful tool for software development.
-
+  <br> <br>
   Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
