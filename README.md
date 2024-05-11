@@ -41,11 +41,13 @@ Whether you're a student, hobbyist, or aspiring developer, our repository is the
 Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
+<h1 align="center">List Of Programs: </h1>
+
 <h1 align="center">CONTRIBUTION</h1>
 <h3 align="center">
   This is a personal learning project for me.
   <br>
   Please feel free to fork this repo. Pull request to submit more programs.
   <br> 
-  Made By:Vaibhav Sharma
+  Made By: Vaibhav Sharma
 </h3>
