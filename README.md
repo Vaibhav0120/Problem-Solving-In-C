@@ -7,7 +7,7 @@
   Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
-<h6 align="left">Beginner-Friendly Approach: </h6>
+<h5 align="left">Beginner-Friendly Approach: </h5>
 <p align="left"> 
   We understand that everyone starts somewhere. That's why we've curated a collection of problems specifically tailored for beginners. Don't worry if you're new to 
   programming; we'll guide you through each step of the way.
