@@ -9,25 +9,25 @@
 
 <br> <br>
 
-<h5 align="left">Beginner-Friendly Approach: </h5>
+<h5 align="left">✨ Beginner-Friendly Approach: </h5>
 <p align="left"> 
   We understand that everyone starts somewhere. That's why we've curated a collection of problems specifically tailored for beginners. Don't worry if you're new to 
   programming; we'll guide you through each step of the way.
 </p>
 
-<h5 align="left">Variety of Problems: </h5>
+<h5 align="left">✨ Variety of Problems: </h5>
 <p align="left"> 
   From simple algorithms to more complex data structures, our repository covers a wide range of problems. Whether you're interested in sorting algorithms, string 
   manipulation, or even dynamic memory allocation, there's something here for everyone.
 </p>
 
-<h5 align="left">Easy-to-Understand Solutions: </h5>
+<h5 align="left">✨ Easy-to-Understand Solutions: </h5>
 <p align="left"> 
   We believe in the importance of clarity and simplicity. Each problem comes with detailed explanations and well-commented code, making it easy for you to understand 
   and learn from.
 </p>
 
-<h5 align="left">Continuous Updates: </h5>
+<h5 align="left">✨ Continuous Updates: </h5>
 <p align="left"> 
   We're committed to providing fresh content and regularly updating our repository with new problems and solutions. Stay tuned for exciting challenges and 
   opportunities to expand your skills.
@@ -41,7 +41,11 @@ Whether you're a student, hobbyist, or aspiring developer, our repository is the
 Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
-IPEC 2K23 1YR/1SEM PPS          
-ALL LAB ASSIGNMENT + Important Program For Practice
-
-Made By:Vaibhav Sharma (CSE)
+<h1 align="center">CONTRIBUTION</h1>
+<h3 align="center">
+  This is a personal learning project for me.
+  <br>
+  Please feel free to fork this repo. Pull request to submit more programs.
+  <br> 
+  Made By:Vaibhav Sharma
+</h3>
