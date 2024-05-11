@@ -42,6 +42,8 @@ Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
 <h1 align="center">List Of Programs: </h1>
+[Basic CMD](https://github.com/Vaibhav0120/Problem-Solving-In-C/tree/main/01%20%7C%7C%20CMD)
+[Basic C]([Basic CMD](https://github.com/Vaibhav0120/Problem-Solving-In-C/tree/main/01%20%7C%7C%20CMD))
 
 <h1 align="center">CONTRIBUTION</h1>
 <h3 align="center">
