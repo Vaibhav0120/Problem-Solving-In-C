@@ -51,8 +51,8 @@ Ready to get started? Fork our repository and let the problem-solving begin!
 <p align="left"><img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/c3d999b4-7b1e-4089-851c-1bbe3fedde30" width="50%" height="50%"><h3>This Program Multiplies 2 Matries</h3></p>
 
 <p align="right"><img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/296f57b6-8876-45b6-9c15-00d0ab7d7e2d" width="50%" height="50%"></p>
-<p align="left"><img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e"></p>
-<p align="right"><img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1"></p>
+<img align="left" src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e" width="50%" height="50%">
+<img align="right"src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1" width="50%" height="50%">
 
 <h1 align="center">CONTRIBUTION</h1>
 <h3 align="center">
