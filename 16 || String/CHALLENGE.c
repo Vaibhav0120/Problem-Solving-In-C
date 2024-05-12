@@ -10,7 +10,7 @@ int main() {
 
     // Input full name
     printf("Enter your full name: ");
-    gets(fullName);
+    fgets(fullName,100,stdin);
 
     // Length of fullName
     i = 0;

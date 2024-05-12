@@ -17,6 +17,6 @@ int main ()
         num = num / 10;
     }
 
-    printf("Sum of %d: %d \n",num2,sum);
+    printf("Reverse of %d: %d \n",num2,sum);
     return 0;
 }
