@@ -8,7 +8,7 @@
 </h3>
 
 <br>
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*0D9zGIQXQEIZFYD9tpRXgQ.png" width="50%" height="50%">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*0D9zGIQXQEIZFYD9tpRXgQ.png" width="50%" height="50%" align="center">
 <br>
 
 <h5 align="left">✨ Beginner-Friendly Approach: </h5>
