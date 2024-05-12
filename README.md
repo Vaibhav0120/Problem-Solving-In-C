@@ -50,21 +50,13 @@ Ready to get started? Fork our repository and let the problem-solving begin!
 <h1 align="center">Screenshots</h1>
 
 <p>
-  <p align="left">
-    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/c3d999b4-7b1e-4089-851c-1bbe3fedde30" width="50%" height="50%">
-  </p>
-  <p align="right">
-    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/296f57b6-8876-45b6-9c15-00d0ab7d7e2d" width="50%" height="50%">
-  </p>
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/c3d999b4-7b1e-4089-851c-1bbe3fedde30" width="50%" height="50%">
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/296f57b6-8876-45b6-9c15-00d0ab7d7e2d" width="50%" height="50%">
 </p>
 
 <p>
-  <p align="left">
-    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e" width="50%" height="50%">
-  </p>
-  <p align="right">
-    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1" width="50%" height="50%">
-  </p>
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e" width="50%" height="50%">
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1" width="50%" height="50%">
 </p>
 
 <h1 align="center">CONTRIBUTION</h1>
