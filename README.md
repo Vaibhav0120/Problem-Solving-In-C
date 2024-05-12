@@ -7,7 +7,9 @@
   Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
 
-<br> <br>
+<br>
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*0D9zGIQXQEIZFYD9tpRXgQ.png">
+<br>
 
 <h5 align="left">✨ Beginner-Friendly Approach: </h5>
 <p align="left"> 
@@ -40,6 +42,14 @@ Whether you're a student, hobbyist, or aspiring developer, our repository is the
 <br> <br>
 Ready to get started? Fork our repository and let the problem-solving begin!
 </h3>
+
+<br>
+<h1 align="center">Screenshots</h1>
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
 
 <h1 align="center">CONTRIBUTION</h1>
 <h3 align="center">
