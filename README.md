@@ -50,8 +50,8 @@ Ready to get started? Fork our repository and let the problem-solving begin!
 <h1 align="center">Screenshots</h1>
 
 <p>
-  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/c3d999b4-7b1e-4089-851c-1bbe3fedde30" width="50%" height="50%">
-  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/296f57b6-8876-45b6-9c15-00d0ab7d7e2d" width="50%" height="50%">
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/c3d999b4-7b1e-4089-851c-1bbe3fedde30" width="100" height="100">
+  <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/296f57b6-8876-45b6-9c15-00d0ab7d7e2d" width="100" height="100">
 </p>
 
 <p>
