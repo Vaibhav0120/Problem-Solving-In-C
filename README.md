@@ -58,8 +58,14 @@ Ready to get started? Fork our repository and let the problem-solving begin!
   </p>
 </p>
 
-<img align="left" src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e" width="50%" height="50%">
-<img align="right"src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1" width="50%" height="50%">
+<p>
+  <p align="left">
+    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/7e20d8fe-f6f4-4c3e-bd69-2132d948123e" width="50%" height="50%">
+  </p>
+  <p align="right">
+    <img src="https://github.com/Vaibhav0120/Problem-Solving-In-C/assets/150184948/9421ca6c-e022-45f4-92e2-f4317d5e5fd1" width="50%" height="50%">
+  </p>
+</p>
 
 <h1 align="center">CONTRIBUTION</h1>
 <h3 align="center">
