@@ -9,7 +9,7 @@
 
 <br>
 <p align="center">
-  <img width="460" height="300" src="https://miro.medium.com/v2/resize:fit:1400/1*0D9zGIQXQEIZFYD9tpRXgQ.png">
+  <img width="500" height="280" src="https://miro.medium.com/v2/resize:fit:1400/1*0D9zGIQXQEIZFYD9tpRXgQ.png">
 </p>
 
 <br>
